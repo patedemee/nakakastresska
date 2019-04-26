@@ -1,0 +1,148 @@
+body{
+	background:#ffffe6;
+}
+
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 2px;
+	height: 15vh;
+	
+	margin-bottom: 10px;
+}
+
+.logo {
+	
+	
+	height: 15vh;
+	width: 20vw;
+	margin-left: 30px;
+	background-image: url(../images/lugu.png);
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li{
+	text-decoration: none;
+}
+.home1{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+.home2{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+.home3{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.lalang{
+	height: 20vh;
+	width: 90vw;
+	background: white;
+	margin: 0px 0px 30px 60px;
+
+}
+
+.te{
+	height: 5vh;
+	width: 90vw;
+	
+	background: #f5f5f0;
+	border-bottom: 5px solid #000d1a;
+}
+
+
+.container2 {
+	height: 70vh;
+	
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+	margin-bottom: 10px;
+
+}
+.image2 {
+	
+	background-image: url(../images/s.jpg);
+	
+}
+
+.image3 {
+	
+	background-image: url(../images/a.jpg);
+	background-position: center;
+}
+.image4 {
+	
+	background-image: url(../images/d.jpg);
+	background-position: center;
+	
+}
+.image5 {
+	background-position: center;
+	background-image: url(../images/g.jpg);
+	
+	
+}
+
+.container3 {
+	height: 70vh;
+	
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.image6 {
+	
+	background-image: url(../images/q.jpg);
+	background-position: center;
+}
+.image7 {
+	
+	background-image: url(../images/w.jpg);
+	background-position: center;
+}
+.image8 {
+	
+	background-image: url(../images/e.jpg);
+	background-position: center;
+}
+.image9 {
+	
+background-image: url(../images/r.jpg);
+background-position: center;
+}
+
+
+

@@ -1,0 +1,138 @@
+body{
+	background:#ffffe6;
+}
+
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 2px;
+	height: 15vh;
+	
+	margin-bottom: 10px;
+}
+
+.logo {
+	
+	
+	height: 15vh;
+	width: 20vw;
+	margin-left: 30px;
+	background-image: url(../images/lugu.png);
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li{
+	text-decoration: none;
+}
+.home1{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+.home2{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+.home3{
+	list-style: none;
+	text-decoration:none;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	
+	color: black;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.lalang{
+	height: 20vh;
+	width: 90vw;
+	background: white;
+	margin: 0px 0px 30px 60px;
+
+}
+
+.te{
+	height: 5vh;
+	width: 90vw;
+	
+	background: #f5f5f0;
+	border-bottom: 5px solid #000d1a;
+}
+
+.imageq {
+	
+	background-image: url(../images/m.jpg);
+	background-position: center;
+}
+.imagew {
+	
+	background-image: url(../images/n.jpg);
+	background-position: center;
+}
+.imagee {
+	
+	background-image: url(../images/b.jpg);
+	background-position: center;
+}
+.imager {
+	
+	background-image: url(../images/v.jpg);
+	background-position: center;
+}
+.containerw {
+	height: 70vh;
+	
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+	margin-bottom: 10px;
+
+}
+.imaget {
+	
+	background-image: url(../images/h.jpg);
+	background-position: center;
+}
+.imagey {
+	
+	background-image: url(../images/mn.jpg);
+	background-position: center;
+}
+.imageu {
+	
+	background-image: url(../images/bv.jpg);
+	background-position: center;
+}
+.imagei {
+	
+	background-image: url(../images/l.jpg);
+	background-position: center;
+}
+.containerx {
+	height: 70vh;
+	
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+	margin-bottom: 10px;
